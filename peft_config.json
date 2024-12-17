@@ -1,12 +1,13 @@
 {
-  "model_name": "meta-llama/Llama-2-70b-hf", #for Starcoder, bigcode/starcoder
+  "model_name": "meta-llama/Llama-2-70b-hf", 
   "use_lora": true,
   "lora_r": 16,
   "lora_alpha": 32,
   "lora_dropout": 0.1,
-  "target_modules": ["q_proj", "v_proj"], #for Starcoder, c_proj, qkv_proj
+  "target_modules": ["q_proj", "v_proj"], 
   "bias": "none",
   "task_type": "CAUSAL_LM",
   "quantization": true,
   "output_file": "generated_unit_tests.py"
 }
+#for Starcoder, model_name is bigcode/starcoder, and target_modules is c_proj, qkv_proj
