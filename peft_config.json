@@ -10,4 +10,4 @@
   "quantization": true,
   "output_file": "generated_unit_tests.py"
 }
-#for Starcoder, model_name is bigcode/starcoder, and target_modules is c_proj, qkv_proj
+//for Starcoder, model_name is bigcode/starcoder, and target_modules is c_proj, qkv_proj
